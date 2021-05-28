@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+  font-family: 'roboto', sans-serif;
+  padding-top: 5rem;
+}
+
+.cover {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.cover:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.order-btn {
+  border: 0.1rem solid #000;
+  background: #000;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+
+.order-btn:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #000;
+}
